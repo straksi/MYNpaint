@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt">
+
+        <AutoCompleteTextView
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone" />
+
+    </android.support.design.widget.TextInputLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/txt"
+        android:weightSum="5">
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/italic"
+            android:textOff="I"
+            android:textOn="I" />
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/bold"
+            android:textOff="B"
+            android:textOn="B" />
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:id="@+id/linetype"
+            android:textOff="Stroke"
+            android:textOn="Fill"/>
+        <EditText
+            android:id="@+id/fontsize"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:text="120"
+            android:textSize="20sp"
+            android:maxLength="3"
+            android:gravity="center|bottom"
+            android:layout_height="match_parent"
+            android:imeOptions="actionDone"
+            android:inputType="number"/>
+    </LinearLayout>
+
+</RelativeLayout>

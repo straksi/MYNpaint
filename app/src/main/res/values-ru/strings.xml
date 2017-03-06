@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MynDraw</string>
+    <string name="button_erase">Стереть изображение</string>
+    <string name="button_set_color">Выбрать цвет</string>
+    <string name="button_set_line_width">Установить толщину линии</string>
+    <string name="line_imageview_description">Этот экран покахывает толщину линии</string>
+    <string name="menuitem_delete">Очистить лист</string>
+    <string name="menuitem_color">Цвет</string>
+    <string name="menuitem_line_width">>Толщина линии</string>
+    <string name="menuitem_save">Сохранить</string>
+    <string name="menuitem_print">Печать</string>
+    <string name="menuitem_open">Open</string>
+    <string name="menuitem_camera">Camera</string>
+    <string name="menuitem_undo">Назад</string>
+    <string name="menuitem_redo">Вперед</string>
+    <string name="menuitem_tool">Инструменты</string>
+    <string name="menuitem_settings">настройки</string>
+
+    <string name="message_erase">Очистить лист?</string>
+    <string name="message_error_saving">Возникла ошибка при сохранении изображения</string>
+    <string name="message_saved">Сохраненныю картину можно увидеть в фотографиях приложение, выбрав папки устройства из меню приложения</string>
+    <string name="message_error_printing">Устройство не поддерживает печать</string>
+
+    <string name="permission_explanation_w">Чтобы сохранить изображение, приложение требует разрешения на запись на внешний накопитель</string>
+    <string name="permission_explanation_r">Чтобы открыть изображение, приложение требует разрешения на чтение из внешнего запоминающего устройства</string>
+    <string name="permission_explanation_c">Для того, чтобы сфотографировать, приложение требует разрешения на открытие камеры</string>
+    <string name="permission_explanation">Для открытия и сохранения изображений, приложение требует разрешения, чтобы получить доступ к внешней памяти</string>
+
+    <string name="list1_val1">Сохранение изображений как PNG</string>
+    <string name="list1_val2">Сохранение изображений как JPEG</string>
+
+    <string name="pencil">Карандаш</string>
+    <string name="circle">Круг</string>
+    <string name="rectangle">прямоугольник</string>
+    <string name="oval">Овал</string>
+
+    <string name="title_tool_dialog">Выбрать инструмент</string>
+    <string name="title_text_dialog">Введите текст</string>
+    <string name="title_color_dialog">Выберите цвет</string>
+    <string name="title_line_width_dialog">Выбрать Ширину линии</string>
+
+    <string name="hint_text">Текст</string>
+</resources>

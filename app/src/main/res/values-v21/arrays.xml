@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>@string/list1_val1</item>
+        <item>@string/list1_val2</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>png</item>
+        <item>jpg</item>
+    </string-array>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+   <string name="app_name">MynDraw</string>
+   <string name="button_erase">Erase Image</string>
+   <string name="button_set_color">Set Color</string>
+   <string name="button_set_line_width">Set Line Width</string>
+   <string name="line_imageview_description">This displays the line thickness</string>
+   <string name="menuitem_delete">Erase Drawing</string>
+   <string name="menuitem_color">Color</string>
+   <string name="menuitem_line_width">Line Width</string>
+   <string name="menuitem_save">Save</string>
+   <string name="menuitem_print">Print</string>
+   <string name="menuitem_open">Open</string>
+   <string name="menuitem_camera">Camera</string>
+   <string name="menuitem_undo">Undo</string>
+   <string name="menuitem_redo">Redo</string>
+   <string name="menuitem_tool">Tools</string>
+   <string name="menuitem_settings">Settings</string>
+
+   <string name="message_erase">Erase the drawing?</string>
+   <string name="message_error_saving">There was an error saving the image</string>
+   <string name="message_saved">Your saved painting can be viewed in the Photos app by selecting Device Folders from that app\'s menu</string>
+   <string name="message_error_printing">Your device does not support printing</string>
+
+   <string name="permission_explanation_w">To save an image, the app requires permission to write to external storage</string>
+   <string name="permission_explanation_r">To open an image, the app requires permission to read from external storage</string>
+   <string name="permission_explanation_c">To take photo, the app requires permission to open camera</string>
+   <string name="permission_explanation">To open an save an images, the app requires permission to get access for external storage</string>
+
+   <string name="list1_val1">Save images as PNG</string>
+   <string name="list1_val2">Save images as JPEG</string>
+
+   <string name="pencil">Pencil</string>
+   <string name="circle">Circle</string>
+   <string name="rectangle">Rectangle</string>
+   <string name="oval">Oval</string>
+
+   <string name="title_tool_dialog">Choose tool</string>
+   <string name="title_text_dialog">Input text</string>
+   <string name="title_color_dialog">Choose Color</string>
+   <string name="title_line_width_dialog">Choose Line Width</string>
+
+   <string name="hint_text">Text</string>
+
+</resources>
